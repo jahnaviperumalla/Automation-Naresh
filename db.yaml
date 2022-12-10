@@ -3,7 +3,7 @@ Properties:
   allocated_storage: 10
   engine           : "engine_type"
   engine_version   : "version"
-  instance_class   : "class"
+  instance_class   : "type"
   name             : "dbname"
   username         : "user_name"
   password         :  "passwd"
