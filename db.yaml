@@ -11,8 +11,8 @@ Properties:
   vpc_security_group_ids : [ "sg_id" ]
   availability_zone    :  az
   skip_final_snapshot  : value
-  multi-az                  : "true"
-  Readreplica               : "true"
+  multi-az                  : "mz"
+  Readreplica               : "Rr"
   tags = {
     Name = "dbname"
   } 
