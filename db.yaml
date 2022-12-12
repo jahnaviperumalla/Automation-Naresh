@@ -8,7 +8,6 @@ Properties:
   username         : "user_name"
   password         :  "passwd"
   db_subnet_group_name : "subnet_group_name"
-  vpc_security_group_ids : [ "sg_id" ]
   availability_zone    :  "azs"
   skip_final_snapshot  : value
   multi-az                  : "mz"
