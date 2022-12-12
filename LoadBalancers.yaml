@@ -1,0 +1,8 @@
+Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+Properties: 
+Name: "Name1"
+Scheme: "scheme1"
+SecurityGroups : "sgs"
+Subnets: "subnet1"
+Type: "typeoflb"
+Tag : "tags1"
