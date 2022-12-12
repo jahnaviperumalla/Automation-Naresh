@@ -7,11 +7,10 @@ Properties:
   name             : "dbname"
   username         : "user_name"
   password         :  "passwd"
-  db_subnet_group_name : "subnet_group_name"
-  availability_zone    :  "azs"
-  skip_final_snapshot  : value
-  multi-az                  : "mz"
-  Readreplica               : "Rr"
+  db_subnet_group_name = subnet_group_name
+  vpc_security_group_ids = [ "sg_id" ]
+  availability_zone    =    az
+  skip_final_snapshot       = value
   tags = {
     Name = "dbname"
   } 
