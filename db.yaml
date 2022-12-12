@@ -7,8 +7,8 @@ Properties:
   name             : "dbname"
   username         : "user_name"
   password         :  "passwd"
-  db_subnet_group_name : " subnet_group_name "
-  vpc_security_group_ids : [ "sg_id" ]
+  db_subnet_group_name : "subnet_group_name"
+  vpc_security_group_ids : "vpc-sg_id" 
   availability_zone    :  "az"
   skip_final_snapshot  : "value"
   multi-az                  : "mz"
