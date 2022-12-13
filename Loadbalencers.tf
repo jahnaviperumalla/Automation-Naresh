@@ -6,6 +6,6 @@ resource "aws_lb" "ApplicationLoadBalancer" {
   load_balancer_type = "type1"
   internal = "internal1"
   security_groups = "security1"
-  subnets  = "subnets1"
+  subnets  = "subnets123"
 }
 
