@@ -1,4 +1,3 @@
----
 Volume:
   Type: AWS::EC2::Volume
   Properties: 
