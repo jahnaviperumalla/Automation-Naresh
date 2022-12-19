@@ -7,6 +7,8 @@ Resources:
     Name: "Name1"
     Scheme: "scheme1"
     SecurityGroups : "sgs"
-    Subnets: "subnet1"
+    Subnets:
+     - subnet1
+     - subnet2
     Type: "loadbalencerty"
 
