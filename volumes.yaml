@@ -8,4 +8,3 @@ Resources:
           volume_size: "volume_size1"
           Availability_Zone: "Availability_Zone1"
           snapshot: "snapshot1"
-          Encrypted: "Encrypted1"
