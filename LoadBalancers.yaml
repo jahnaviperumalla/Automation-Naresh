@@ -4,5 +4,5 @@ Name: "Name1"
 Scheme: "scheme1"
 SecurityGroups : "sgs"
 Subnets: "subnet1"
-Type: "typeoflb"
+Type: "loadbalencerty"
 
