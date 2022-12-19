@@ -3,7 +3,7 @@ Description: An example template for a creating volume.
 Resources: 
   Volume:
     Type: AWS::EC2::Volume
-      Properties: 
+      Properties:
         VolumeType: VolumeType1
         VolumeSize: VolumeSize1
         AvailabilityZone: AvailabilityZone1
