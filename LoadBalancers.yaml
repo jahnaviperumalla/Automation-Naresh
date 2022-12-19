@@ -1,15 +1,12 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: An example template for a creating loadbalencer.
-parameters:
- scheme:
-  type: string
 
 Resources: 
  Loadbalancer: 
   Type : AWS::ElasticLoadBalancingV2::LoadBalancer
   Properties: 
     Name: "Name1"
-    Scheme: !Ref scheme
+    Scheme: "scheme1"
     SecurityGroups : 
      - sgs
     Subnets:
