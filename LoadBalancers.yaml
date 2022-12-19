@@ -5,12 +5,11 @@ Resources:
   Type : AWS::ElasticLoadBalancingV2::LoadBalancer
   Properties: 
     Name: "Name1"
-    Scheme: Scheme1
+    Scheme: "Scheme1"
     SecurityGroups : 
      - sgs
     Subnets:
      - subnet1
      - subnet2
-    Type: 
-     - loadbalencerty
+    Type: "loadbalencerty"
 
