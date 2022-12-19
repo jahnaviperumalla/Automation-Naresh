@@ -4,8 +4,8 @@ Resources:
   Volume:
     Type: AWS::EC2::Volume
     Properties: 
-      VolumeType: Volume_type1
-      VolumeSize: volume_size1
-      AvailabilityZone: Availability_Zone1
+      VolumeType: VolumeType1
+      VolumeSize: VolumeSize1
+      AvailabilityZone: AvailabilityZone1
       snapshot: snapshot1
       Encrypted: false
