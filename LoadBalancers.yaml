@@ -6,7 +6,8 @@ Resources:
   Properties: 
     Name: "Name1"
     Scheme: "scheme1"
-    SecurityGroups : "sgs"
+    SecurityGroups : 
+     - sgs
     Subnets:
      - subnet1
      - subnet2
