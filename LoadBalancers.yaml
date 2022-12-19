@@ -5,8 +5,7 @@ Resources:
   Type : AWS::ElasticLoadBalancingV2::LoadBalancer
   Properties: 
     Name: "Name1"
-    Scheme1: internal
-    Scheme2: internet-facing
+    Scheme: Scheme1
     SecurityGroups : 
      - sgs
     Subnets:
