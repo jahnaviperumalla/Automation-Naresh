@@ -6,7 +6,7 @@ Resources:
   Properties: 
     AllocatedStorage: 20
     Engine: engine_type
-    EngineVersion: version
+    EngineVersion: engine_version1
     DBInstanceClass: instance_class1
     DBName: dbname
     MasterUsername: user_name
