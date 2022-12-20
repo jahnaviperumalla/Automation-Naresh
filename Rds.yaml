@@ -7,7 +7,7 @@ Resources:
     AllocatedStorage: 20
     Engine: engine_type
     EngineVersion: version
-    DBInstanceClass: type
+    DBInstanceClass: instance_class1
     DBName: dbname
     MasterUsername: user_name
     MasterUserPassword: passwd
