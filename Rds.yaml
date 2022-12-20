@@ -16,6 +16,7 @@ Resources:
     MultiAZ:  multiavailability_zone
     ReplicaMode: Readreplica1
     StorageEncrypted: storage1
+    StorageType: STselect
     DeletionProtection: deleteprotection1
     DBSecurityGroups:  dbsecurity
     VPCSecurityGroups: vpcsg
