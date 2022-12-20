@@ -9,8 +9,8 @@ Resources:
     EngineVersion: version
     DBInstanceClass  :  type
     DBName: dbname
-    DBUsername: user_name
-    DBPassword:  passwd
+    MasterUsername: user_name
+    MasterUserPassword:  passwd
     AvailabilityZone:  azs
     MultiAZ:  multiavailability_zone
     ReplicaMode: Readreplica1
