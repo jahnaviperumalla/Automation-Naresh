@@ -6,7 +6,6 @@ Resources:
     Properties:
       VolumeType: VolumeType1
       Size: VolumeSize1
-      Iops: iops1
       AvailabilityZone: Azs
       Encrypted: Encrypted1
       Tags:
