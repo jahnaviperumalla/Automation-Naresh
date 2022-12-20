@@ -9,3 +9,7 @@ Resources:
       AvailabilityZone: "AvailabilityZone1"
       SnapshotId: "snapshot1"
       Encrypted: "Encrypted1"
+      Tags:
+      - Key: Name
+        Value: test-volume
+      
