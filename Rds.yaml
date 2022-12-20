@@ -11,7 +11,6 @@ Resources:
     DBName: dbname
     DBUsername: user_name
     DBPassword:  passwd
-    PubliclyAccessible: public
     AvailabilityZone:  azs
     MultiAZ:  multiavailability_zone
     ReplicaMode: Readreplica1
