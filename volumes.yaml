@@ -4,10 +4,10 @@ Resources:
   Volume:
     Type: AWS::EC2::Volume
     Properties:
-      VolumeType: "VolumeType1"
-      Size: "VolumeSize1"
-      AvailabilityZone: "AvailabilityZone1"
-      Encrypted: "Encrypted1"
+      VolumeType: VolumeType1
+      Size: VolumeSize1
+      AvailabilityZone: AvailabilityZone1
+      Encrypted: Encrypted1
       Tags:
       - Key: Name
         Value: test-volume
