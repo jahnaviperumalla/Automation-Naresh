@@ -6,7 +6,7 @@ Resources:
     Properties:
       VolumeType: VolumeType1
       Size: VolumeSize1
-      AvailabilityZone: AvailabilityZone1
+      AvailabilityZone: Azs
       Encrypted: Encrypted1
       Tags:
       - Key: Name
