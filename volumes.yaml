@@ -8,4 +8,4 @@ Resources:
       Size: "VolumeSize1"
       AvailabilityZone: "AvailabilityZone1"
       SnapshotId: "snapshot1"
-      Encrypted: "Encrypted"
+      Encrypted: "Encrypted1"
