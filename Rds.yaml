@@ -17,7 +17,7 @@ Resources:
     StorageEncrypted: storage1
     StorageType: STselect
     DeletionProtection: deleteprotection1
-    DBSecurityGroups:  dbsecurity
+    VPCSecurityGroups:  dbsecurity
     DBSubnetGroupName:  subnet
 
 
