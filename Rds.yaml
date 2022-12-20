@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: An example template for a creating Rds.
+Resources: 
+ Rds: 
+  Type: AWS::RDS::DBInstance
+  Properties: 
+    AllocatedStorage: 10
+    Engine: engine_type
+    EngineVersion: version
+    DBInstanceClass  :  type
+    DBName: dbname
+    DBUsername: user_name
+    DBPassword:  passwd
+    PubliclyAccessible: public
+    AvailabilityZone:  azs
+    MultiAZ:  multiavailability_zone
+    ReplicaMode: Readreplica1
+    StorageEncrypted: storage1
+    DeletionProtection: deleteprotection1
+    DBSecurityGroups:  dbsecurity
+    VPCSecurityGroups: vpcsg
+    DBSubnetGroupName:  subnet
+
+
+    
