@@ -18,7 +18,9 @@ Resources:
     StorageType: STselect
     DeletionProtection: deleteprotection1
     VPCSecurityGroups: dbsecurity
-    DBSubnetGroupName: subnet
+    DBSubnetGroupName: 
+         - SubnetA
+         - SubnetB
 
 
     
