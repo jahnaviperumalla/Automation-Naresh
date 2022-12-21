@@ -12,7 +12,7 @@ Resources:
     MasterUsername: user_name
     MasterUserPassword: passwd
     AvailabilityZone: azs
-    MultiAZ: multiavailability_zone
+#     MultiAZ: multiavailability_zone
     ReplicaMode: Readreplica1
     StorageEncrypted: storage1
     StorageType: STselect
