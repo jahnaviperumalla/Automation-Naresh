@@ -19,9 +19,8 @@ Resources:
     DeletionProtection: deleteprotection1
     VPCSecurityGroups: 
      - dbsecurity
-    DBSubnetGroupName: 
-         - SubnetA
-         - SubnetB
+    DBSubnetGroupName: SubnetA
+
 
 
     
