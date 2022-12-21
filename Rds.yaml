@@ -1,25 +1,69 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: An example template for a creating Rds.
-Resources: 
- Rds: 
-  Type: AWS::RDS::DBInstance
-  Properties: 
-    AllocatedStorage: 20
-    Engine: engine_type
-    EngineVersion: engine_version1
-    DBInstanceClass: instance_class1
-    DBName: dbname
-    MasterUsername: user_name
-    MasterUserPassword: passwd
-    AvailabilityZone: azs
-#     MultiAZ: multiavailability_zone
-    ReplicaMode: Readreplica1
-    StorageEncrypted: storage1
-    StorageType: STselect
-    DeletionProtection: deleteprotection1
-    VPCSecurityGroups: 
-     - dbsecurity
-    DBSubnetGroupName: SubnetA
+Parameters:
+  AllocatedStorage:
+    Type: String
+    #Default: 20
+
+  DBInstanceClass:
+    Type: String
+    #Default: db.m6g.large    
+
+  DBName:
+    Type: String
+    #Default: Dev
+
+  SubnetGroupName:
+    Type: String
+    #Default: dbsubnetgroup
+
+
+  Engine:
+    Type: String
+    #Default: postgres
+
+  EngineVersion:
+    Type: String
+    #Default: 13.3    
+
+  MasterUsername:
+    Type: String
+    #Default: Naresh
+
+
+  MasterUserPassword:
+    Type: String
+    #Default: Admin12345
+  MultiAZ:
+    Type: String
+    #Default: true
+  ReplicaMode:
+    Type: String
+    #Default: open-read-only
+
+  StorageType:
+    Type: String
+    #Default: standard
+  Tags:
+    Type: String
+    #Default: Naresh-RDS-POC
+Resources:
+  RDS:
+    Type: AWS::RDS::DBInstance
+    Properties: 
+      AllocatedStorage: !Ref AllocatedStorage
+      DBInstanceClass: !Ref DBInstanceClass
+      DBName: !Ref DBName
+      DBSubnetGroupName: !Ref SubnetGroupName
+      Engine: !Ref Engine
+      EngineVersion: !Ref EngineVersion
+      MasterUsername: !Ref MasterUsername
+      MasterUserPassword: !Ref MasterUserPassword
+      MultiAZ: !Ref MultiAZ
+      ReplicaMode: !Ref ReplicaMode
+      StorageType: !Ref StorageType
+      Tags: 
+        - Key: Name
+          Value: !Ref Tags
 
 
 
