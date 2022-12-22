@@ -11,7 +11,7 @@
         instance_type: instance_type1 
         db_name:  db_name1
         db_subnet_groups: db_subnet_groups1
-        engine: engine1
+        db_engine: engine1
         engine_version: engine_version1
         master_user_password: master_user_password1
         master_username:  master_username1
