@@ -8,17 +8,15 @@
       rds:
         command: create
         size: 20
-        availability_zone: "azs"
-        aws_access_key: ""
-        aws_secret_key: ""
-        instance_type: "DBInstanceClass1"
-        db_name: "DBName"
-        db_subnet_groups: "SubnetGroupName1"
-        engine: "Engine1"
-        engine_version: "EngineVersion1"
-        master_user_password: "MasterUserPassword"
-        master_username: "MasterUsername"
-        region: "Region1"
-        storage_type: "StorageType"
+        availability_zone:  azs
+        instance_type:  DBInstanceClass1
+        db_name:  DBName
+        db_subnet_groups: SubnetGroupName1
+        engine: Engine1
+        engine_version: EngineVersion1
+        master_user_password: MasterUserPassword
+        master_username:  MasterUsername
+        region: Region1
+        storage_type: StorageType
         tags:
           environment: test
