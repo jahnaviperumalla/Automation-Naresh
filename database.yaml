@@ -7,7 +7,7 @@
       rds:
         command: create
         size: 20
-        availability_zone:  azs1
+        availability_zone:  availability_zone1
         instance_type: instance_type1 
         db_name:  db_name1
         db_subnet_groups: db_subnet_groups1
