@@ -1,23 +1,22 @@
----
-- name:  provisioning Rds using Ansible
+- name: create-rds-instance
   hosts: localhost
-  gather_facts: False
+  connection: local
+  gather_facts : false
 
   tasks:
-     - name: Task # 1 Launch rds database 
-       rds:
-          allocated_storage: 10
-          engine           :   engine_type
-          engine_version   :   version
-          instance_class   :   type
-          name             :  dbname
-          username         :  user_name
-          password         :  passwd
-          publicly-accessible : public1123
-          availability_zone  :  azs
-          multi-az           :  multiavailability_zone
-          Readreplica               :  Readreplica1
-          storage-encrypted  : storage1
-          deletion-protection :  deleteprotection1
-          vpc-security-group-ids  : vpcsg
-          subnet_ids  : subnet
+    - name: provision postgres rds instance
+      rds:
+        command: create
+        allocated_storage: 20
+        availability_zone: "us-west-2b"
+        db_instance_class: "db.m6g.large"
+        db_name: "PostgreSQL"
+        db_subnet_group_name: "dbsubnetgroup"
+        engine: "postgres"
+        engine_version: "13.3"
+        master_user_password: "secret"
+        master_username: "dbmaster"
+        region: "us-west-1"
+        storage_type: "standard"
+        tags:
+          environment: test
